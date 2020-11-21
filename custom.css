@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+body{
+    font-family: 'Montserrat', sans-serif;}
+
+header {
+    padding-top: 60px;
+}
+
+nav {
+    padding-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+}
+
+h6 {
+    padding: 10px;
+}
+
+
+.img {
+    align-content: center;
+}
+
+a {
+    color: #36454f;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+            background: #EC4E4E;
+            color: white;
+    padding: 10px;}
+
+footer {
+    position: fixed bottom;
+    text-align: center;
+    background-color: aliceblue;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gainsboro;
+    color: white;
+    display: block;
+    align-items: left;
+
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+.jumbotron { 
+    background-color:white;
+}
